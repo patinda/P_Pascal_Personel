@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       failOnError: false,
+      routes: ['/'],
     },
   },
   modules: ["@nuxtjs/i18n"],
@@ -19,7 +20,7 @@ export default defineNuxtConfig({
     'assets/css/styles.css',
   ],
   app: {
-    baseURL: "https://github.com/patinda/P_Pascal_Personel",
+    
     head: {
       link: [
         {
