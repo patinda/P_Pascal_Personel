@@ -1,0 +1,32 @@
+{
+    "fr": {
+        "title": "Portfolio Multilingue",
+        "nav-logo": "Alexa",
+        "nav-home": "Accueil",
+        "nav-about": "À propos",
+        "nav-skills": "Compétences",
+        "nav-services": "Services",
+        "nav-portfolio": "Portfolio",
+        "nav-contact": "Contact",
+        "home-title": "Bonjour, je suis Alexa",
+        "home-description": "Expérience en design web et développement.",
+        "home-contact-btn": "Contactez-moi",
+        "footer-title": "Alexa",
+        "footer-subtitle": "Développeuse Frontend"
+    },
+    "en": {
+        "title": "Multilingual Portfolio",
+        "nav-logo": "Alexa",
+        "nav-home": "Home",
+        "nav-about": "About",
+        "nav-skills": "Skills",
+        "nav-services": "Services",
+        "nav-portfolio": "Portfolio",
+        "nav-contact": "Contact",
+        "home-title": "Hi, I'm Alexa",
+        "home-description": "Experience in web design and development.",
+        "home-contact-btn": "Contact Me",
+        "footer-title": "Alexa",
+        "footer-subtitle": "Frontend Developer"
+    }
+}

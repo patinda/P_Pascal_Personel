@@ -1,0 +1,93 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "skills": {
+    "title": "Compétences",
+    "subtitle": "Mon niveau technique",
+    "frameworks": { "title": "Frameworks et CMS" },
+    "databases": { "title": "Bases de Données" },
+    "tools": { "title": "Outils de Développement" },
+    "methods": { "title": "Méthodologies & Webdesign" }
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "subtitle": "Mon introduction",
+    "description": "Développeur Full Stack avec une solide expertise dans les technologies web et mobiles. Passionné par la création d'interfaces utilisateur intuitives et le développement d'applications performantes, je livre des solutions de qualité adaptées aux besoins de mes clients.",
+    "download": "Télécharger CV"
+  },
+  "home": {
+    "title": "Bonjour, je suis Patinda Pascal KABORE",
+    "subtitle": "Développeur Full Stack",
+    "description": "Spécialisé dans le développement d'applications web et mobiles performantes et sécurisées. Expert en Laravel, Nuxt.js et Flutter, je crée des solutions adaptées aux besoins des clients.",
+    "contact": "Contactez-moi",
+    "scroll": "Faites défiler"
+  },
+  "footer": {
+    "title": "Patinda Pascal KABORE",
+    "subtitle": "Full Stack Developer",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "copyright": "KABORE.P.Pascal. All rights reserved."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Ce que je propose",
+    "learnMore": "En savoir plus",
+    "uiux": {
+      "title": "Conception UI/UX",
+      "detail1": "Je développe des interfaces utilisateur modernes et intuitives.",
+      "detail2": "Création et optimisation de l'expérience utilisateur (UX).",
+      "detail3": "Conception d'éléments interactifs pour les applications web.",
+      "detail4": "Amélioration de la visibilité de votre marque grâce à un design stratégique."
+    },
+    
+    "frontend": {
+      "title": "Développement Frontend",
+      "detail1": "Création d'interfaces web responsives et performantes.",
+      "detail2": "Développement avec des technologies modernes comme Nuxt.js et Vue.js.",
+      "detail3": "Optimisation des performances pour une navigation fluide.",
+      "detail4": "Collaboration avec les équipes UX/UI pour une intégration parfaite."
+    },
+    "backend": {
+      "title": "Développement Backend",
+      "detail1": "Développement de systèmes backend robustes avec Laravel.",
+      "detail2": "Création d'API sécurisées et performantes.",
+      "detail3": "Gestion et optimisation des bases de données MySQL et PostgreSQL.",
+      "detail4": "Intégration avec des services cloud comme Firebase."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Mes projets récents",
+    "project1": {
+      "title": "Site Web Moderne",
+      "description": "Site adaptable à tous les appareils, avec des composants UI et des interactions animées."
+    },
+    "project2": {
+      "title": "Démonstration Vidéo",
+      "description": "Vidéo de démonstration montrant les fonctionnalités clés de l'application."
+    },
+    "project3": {
+      "title": "Boutique en Ligne",
+      "description": "Site adaptable à tous les appareils, avec des composants UI et des interactions animées."
+    },
+    "viewSite": "Voir le site",
+    "viewDemo": "Voir la démo",
+    "videoNotSupported": "Votre navigateur ne supporte pas la lecture de vidéos."
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "subtitle": "Entrons en contact",
+    "phone": "Appelez-moi",
+    "email": "E-mail",
+    "location": "Localisation"
+  }
+  
+}
