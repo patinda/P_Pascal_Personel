@@ -24,4 +24,6 @@ import About from "~/components/About.vue";
 import Footer from "~/components/Footer.vue";
 import Services from "~/components/Services.vue";
 import Contact from "~/components/contact.vue";
+
+
 </script>
