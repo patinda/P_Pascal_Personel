@@ -23,7 +23,7 @@
           </ul>
   
           <!-- Réseaux sociaux -->
-          <div class="footer__socials">
+          <!-- <div class="footer__socials">
             <a href="http://facebook.com" target="_blank" class="footer__social">
               <i class="uil uil-facebook"></i>
             </a>
@@ -33,7 +33,7 @@
             <a href="http://twitter.com" target="_blank" class="footer__social">
               <i class="uil uil-twitter-alt"></i>
             </a>
-          </div>
+          </div> -->
         </div>
   
         <!-- Copyright -->

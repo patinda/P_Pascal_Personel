@@ -2,7 +2,6 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       failOnError: false,
-      routes: ['/'],
     },
   },
   modules: ["@nuxtjs/i18n"],
@@ -39,6 +38,11 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css',
         },
+       
+        {
+          rel: 'stylesheet',
+          href: 'https://res.cloudinary.com/dkztnapze/raw/upload/v1734475901/portfolio/styles_zwxl2s.css',
+        },
         
       ],
       script: [
@@ -46,7 +50,7 @@ export default defineNuxtConfig({
           src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js',
         },
         {
-          src: '/js/main.js',
+          src: 'https://res.cloudinary.com/dkztnapze/raw/upload/v1734476268/portfolio/main_eyfkoy.js',
         },
       ],
     },

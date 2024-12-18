@@ -82,40 +82,60 @@
   </template>
   
   <script setup>
-  import { ref } from 'vue';
-  import { useI18n } from 'vue-i18n';
-  
-  // Importation explicite des images
-  import portfolio1 from '~/assets/img/portfolio1.jpg';
-  import portfolio2 from '~/assets/img/portfolio2.jpg';
-  import portfolio3 from '~/assets/img/portfolio3.jpg';
-  
-  const { t } = useI18n();
-  
-  // Données dynamiques des projets
-  const portfolioProjects = [
-    { image: portfolio1, title: 'Site Web Moderne', description: 'Projet 1', link: 'https://example.com' },
-    { image: portfolio2, title: 'Démonstration Vidéo', description: 'Projet 2', video: '/videos/demo.mp4' },
-    { image: portfolio3, title: 'Boutique en Ligne', description: 'Projet 3', link: 'https://shop.com' },
-  ];
-  
-  // Modal vidéo
-  const isVideoModalOpen = ref(false);
-  const videoUrl = ref('');
-  
-  const openVideoModal = (url) => {
-    videoUrl.value = url;
-    isVideoModalOpen.value = true;
-  };
-  
-  const closeVideoModal = () => {
-    videoUrl.value = '';
-    isVideoModalOpen.value = false;
-  };
-  
-  // Injecter Bootstrap uniquement pour ce composant
-  
-  </script>
+import { ref, computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
+// Données dynamiques des projets avec traduction dans computed
+const portfolioProjects = computed(() => [
+  {
+    image: 'https://res.cloudinary.com/dkztnapze/image/upload/v1734478809/portfolio/3_tgcpy9.png',
+    title: t('portfolio.project1.title'),
+    description: t('portfolio.project1.description'),
+    video: 'https://res.cloudinary.com/dkztnapze/video/upload/v1734476663/portfolio/4_oxodvi.mp4',
+  },
+  {
+    image: 'https://res.cloudinary.com/dkztnapze/image/upload/v1734478811/portfolio/5_scsali.png',
+    title: t('portfolio.project2.title'),
+    description: t('portfolio.project2.description'),
+    video: 'https://res.cloudinary.com/dkztnapze/video/upload/v1734476644/portfolio/3_aec9yi.mp4',
+  },
+  {
+    image: 'https://res.cloudinary.com/dkztnapze/image/upload/v1734478810/portfolio/4_jawi2x.png',
+    title: t('portfolio.project3.title'),
+    description: t('portfolio.project3.description'),
+    video: 'https://res.cloudinary.com/dkztnapze/video/upload/v1734476716/portfolio/1_knsrq2.mp4',
+  },
+  {
+    image: 'https://res.cloudinary.com/dkztnapze/image/upload/v1734478816/portfolio/2_zemsga.png',
+    title: t('portfolio.project4.title'),
+    description: t('portfolio.project4.description'),
+    video: 'https://res.cloudinary.com/dkztnapze/video/upload/v1734476716/portfolio/1_knsrq2.mp4',
+  },
+  {
+    image: 'https://res.cloudinary.com/dkztnapze/image/upload/v1734478812/portfolio/1_vbzdxu.png',
+    title: t('portfolio.project5.title'),
+    description: t('portfolio.project5.description'),
+    link: 'https://forgelogistics.africa/',
+  },
+]);
+
+// Modal vidéo
+const isVideoModalOpen = ref(false);
+const videoUrl = ref('');
+
+const openVideoModal = (url) => {
+  videoUrl.value = url;
+  isVideoModalOpen.value = true;
+};
+
+const closeVideoModal = () => {
+  videoUrl.value = '';
+  isVideoModalOpen.value = false;
+};
+</script>
+
   
   <style scoped>
   .portfolio__img {

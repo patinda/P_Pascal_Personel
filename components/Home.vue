@@ -5,20 +5,20 @@
         <div class="home__content grid">
           <!-- Réseaux sociaux -->
           <div class="home__social">
-            <a href="http://linkedin.com/" target="_blank" class="home__social-icon">
+            <a href="https://www.linkedin.com/in/patinda-pascal-kabore-ab772121a" target="_blank" class="home__social-icon">
               <i class="uil uil-linkedin-alt"></i>
             </a>
-            <a href="http://dribble.com" target="_blank" class="home__social-icon">
+            <!-- <a href="http://dribble.com" target="_blank" class="home__social-icon">
               <i class="uil uil-dribbble"></i>
-            </a>
-            <a href="http://github.com" target="_blank" class="home__social-icon">
+            </a> -->
+            <a href="http://github.com/patinda" target="_blank" class="home__social-icon">
               <i class="uil uil-github-alt"></i>
             </a>
           </div>
   
           <!-- Image de profil -->
           <div class="home__img">
-            <img src="assets/img/perfil.png" alt="Profile Picture" class="home__circle-img" />
+            <img src="https://res.cloudinary.com/dkztnapze/image/upload/v1734476105/portfolio/perfil_v4tovv.png" alt="Profile Picture" class="home__circle-img" />
           </div>
   
           <!-- Contenu de présentation -->

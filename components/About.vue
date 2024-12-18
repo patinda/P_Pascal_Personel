@@ -9,7 +9,7 @@
       <div class="about__container container_portfolio grid">
         <!-- Image -->
         <img
-          src="assets/img/about.jpg"
+          src="https://res.cloudinary.com/dkztnapze/image/upload/v1734476104/portfolio/about_pla1tm.jpg"
           alt="Patinda Pascal KABORE"
           class="about__img"
         />
@@ -20,9 +20,10 @@
   
           <div class="about__buttons">
             <a
-              :href="cvLink"
-              download
-              class="button button--flex"
+            :href="cvLink"
+      target="_blank"
+      
+      class="button button--flex"
             >
               {{ $t('about.download') }}
               <i class="uil uil-download-alt button__icon"></i>
@@ -35,6 +36,6 @@
   
   <script setup>
   // Lien vers le CV
-  const cvLink = 'assets/pdf/Patinda_Pascal_CV.pdf';
+  const cvLink = 'https://drive.google.com/file/d/1frmUdYfrK2TNAjtGlxb2tLEWvg1elkhu/view?usp=sharing';
   </script>
   

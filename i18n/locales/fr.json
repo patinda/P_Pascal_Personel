@@ -8,8 +8,8 @@
     "contact": "Contact"
   },
   "skills": {
-    "title": "Compétences",
-    "subtitle": "Mon niveau technique",
+    "title": "Compétences techniques",
+    "subtitle": " ",
     "frameworks": { "title": "Frameworks et CMS" },
     "databases": { "title": "Bases de Données" },
     "tools": { "title": "Outils de Développement" },
@@ -17,14 +17,14 @@
   },
   "about": {
     "title": "À Propos de Moi",
-    "subtitle": "Mon introduction",
-    "description": "Développeur Full Stack avec une solide expertise dans les technologies web et mobiles. Passionné par la création d'interfaces utilisateur intuitives et le développement d'applications performantes, je livre des solutions de qualité adaptées aux besoins de mes clients.",
+    "subtitle": " ",
+    "description": "Développeur Full Stack, passionné par la création d'interfaces utilisateur intuitives et le développement d'applications performantes, je livre des solutions de qualité adaptées aux besoins de mes clients.",
     "download": "Télécharger CV"
   },
   "home": {
     "title": "Bonjour, je suis Patinda Pascal KABORE",
     "subtitle": "Développeur Full Stack",
-    "description": "Spécialisé dans le développement d'applications web et mobiles performantes et sécurisées. Expert en Laravel, Nuxt.js et Flutter, je crée des solutions adaptées aux besoins des clients.",
+    "description": " ",
     "contact": "Contactez-moi",
     "scroll": "Faites défiler"
   },
@@ -66,21 +66,29 @@
   "portfolio": {
     "title": "Portfolio",
     "subtitle": "Mes projets récents",
-    "project1": {
-      "title": "Site Web Moderne",
-      "description": "Site adaptable à tous les appareils, avec des composants UI et des interactions animées."
-    },
-    "project2": {
-      "title": "Démonstration Vidéo",
-      "description": "Vidéo de démonstration montrant les fonctionnalités clés de l'application."
-    },
-    "project3": {
-      "title": "Boutique en Ligne",
-      "description": "Site adaptable à tous les appareils, avec des composants UI et des interactions animées."
-    },
     "viewSite": "Voir le site",
     "viewDemo": "Voir la démo",
-    "videoNotSupported": "Votre navigateur ne supporte pas la lecture de vidéos."
+    "videoNotSupported": "Votre navigateur ne supporte pas la lecture de vidéos.",
+    "project1": {
+      "title": "Commission de l'Informatique et des Libertés du Burkina Faso",
+      "description": "Proposition de refonte du site web de la Commission de l'Informatique et des Libertés du Burkina Faso"
+    },
+    "project2": {
+      "title": "FORUM DCLIC PRO BURKINA FASO",
+      "description": "Plateforme de mise en relation entre apprenants du programme DCLIC et employeurs au Burkina Faso pour l'OIF."
+    },
+    "project3": {
+      "title": "Projet fil rouge DCLIC",
+      "description": "Projet final d'une formation professionnelle en développement web et mobile."
+    },
+    "project4": {
+      "title": "LE GARAGE",
+      "description": "Plateforme de gestion des services de location de véhicules."
+    },
+    "project5": {
+      "title": "Forgelogistics",
+      "description": "Plateforme de gestion des parcs d'engins poids lourds."
+    }
   },
   "contact": {
     "title": "Me Contacter",

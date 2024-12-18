@@ -18,19 +18,19 @@
   "home": {
     "title": "Hello, I am Patinda Pascal KABORE",
     "subtitle": "Full Stack Developer",
-    "description": "Specialized in developing high-performance and secure web and mobile applications. Expert in Laravel, Nuxt.js, and Flutter, I create solutions tailored to clients' needs.",
+    "description": " ",
     "contact": "Contact Me",
     "scroll": "Scroll down"
   },
   "about": {
     "title": "About Me",
-    "subtitle": "My Introduction",
-    "description": "Full Stack Developer with strong expertise in web and mobile technologies. Passionate about creating intuitive user interfaces and developing high-performing applications, I deliver quality solutions tailored to clients' needs.",
+    "subtitle": " ",
+    "description": "Full Stack Developer, passionate about creating intuitive user interfaces and developing high-performing applications, I deliver quality solutions tailored to clients' needs.",
     "download": "Download CV"
   },
   "skills": {
-    "title": "Skills",
-    "subtitle": "My Technical Level",
+    "title": "Technical skills",
+    "subtitle": " ",
     "frameworks": { "title": "Frameworks and CMS" },
     "databases": { "title": "Databases" },
     "tools": { "title": "Development Tools" },
@@ -65,21 +65,29 @@
   "portfolio": {
     "title": "Portfolio",
     "subtitle": "My Recent Projects",
-    "project1": {
-      "title": "Modern Website",
-      "description": "A website adaptable to all devices, with UI components and animated interactions."
-    },
-    "project2": {
-      "title": "Video Demo",
-      "description": "A demonstration video showcasing the application's key features."
-    },
-    "project3": {
-      "title": "Online Store",
-      "description": "A website adaptable to all devices, with UI components and animated interactions."
-    },
     "viewSite": "View Site",
     "viewDemo": "View Demo",
-    "videoNotSupported": "Your browser does not support video playback."
+    "videoNotSupported": "Your browser does not support video playback.",
+    "project1": {
+      "title": "Commission of Information and Freedoms of Burkina Faso",
+      "description": "Redesign proposal for the website of the Commission of Information and Freedoms of Burkina Faso"
+    },
+    "project2": {
+      "title": "DCLIC PRO BURKINA FASO FORUM",
+      "description": "Platform connecting learners of the DCLIC program with employers in Burkina Faso for OIF."
+    },
+    "project3": {
+      "title": "DCLIC Red Line Project",
+      "description": "Final project for a professional web and mobile development course."
+    },
+    "project4": {
+      "title": "LE GARAGE",
+      "description": "Platform for managing car rental services."
+    },
+    "project5": {
+      "title": "Forgelogistics",
+      "description": "Platform for managing heavy-duty vehicle parks."
+    }
   },
   "contact": {
     "title": "Contact Me",
