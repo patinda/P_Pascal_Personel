@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   nitro: {
+    serveStatic: true,
     prerender: {
       failOnError: false,
     },
