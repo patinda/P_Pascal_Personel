@@ -38,7 +38,10 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css',
         },
-       
+        {
+          rel: 'stylesheet',
+          href: 'https://res.cloudinary.com/dkztnapze/raw/upload/v1734475902/portfolio/swiper-bundle.min_jh216d.css',
+        },
         {
           rel: 'stylesheet',
           href: 'https://res.cloudinary.com/dkztnapze/raw/upload/v1734475901/portfolio/styles_zwxl2s.css',
@@ -50,7 +53,7 @@ export default defineNuxtConfig({
           src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js',
         },
         {
-          src: 'https://res.cloudinary.com/dkztnapze/raw/upload/v1734476268/portfolio/main_eyfkoy.js',
+          src: '/js/main.js',
         },
       ],
     },
